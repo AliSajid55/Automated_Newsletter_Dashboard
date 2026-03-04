@@ -1,4 +1,4 @@
-# The CTO's Morning Brief — Automated Newsletter Dashboard
+# The CTO's Morning Brief - Automated Newsletter Dashboard
 
 An intelligent system that collects tech news from 50+ RSS sources every 2 hours, uses **Gemini AI** for smart categorization & summarization, and presents it in a **Tinder-style React dashboard** for quick consumption.
 
