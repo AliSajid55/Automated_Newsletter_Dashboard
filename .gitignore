@@ -1,0 +1,90 @@
+# ══════════════════════════════════════════════════
+# Automated Newsletter Dashboard — .gitignore
+# ══════════════════════════════════════════════════
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+*.whl
+*.pyd
+
+# ── Virtual Environment ──
+.venv/
+venv/
+env/
+backend/venv/
+
+# ── Environment / Secrets (NEVER push these!) ──
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# ── Database ──
+*.db
+*.sqlite3
+
+# ── Alembic (generated migration versions are OK to push) ──
+# alembic/versions/ — these SHOULD be pushed
+
+# ── Node / Frontend ──
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+.eslintcache
+
+# ── Celery ──
+celerybeat-schedule
+celerybeat.pid
+celerybeat-schedule.db
+
+# ── Docker ──
+*.log
+docker-compose.override.yml
+
+# ── OS Files ──
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+ehthumbs_vista.db
+
+# ── Test / Coverage ──
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+.tox/
+coverage.xml
+*.cover
+
+# ── Celery ──
+celerybeat-schedule
+celerybeat-schedule-shm
+celerybeat-schedule-wal
+
+# ── Misc ──
+*.bak
+*.tmp
+*.temp
+*.swp
+~*
